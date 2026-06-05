@@ -1,13 +1,8 @@
-let num1 = 10
-let num2 = 15
-let num3 = 20
-let num4 = 25
-let num5 = 30
+let annoCorrente = 2026
+let annoDiNascita = 1991
 
-console.log(num1, num2, num3, num4, num5);
+let anni = annoCorrente - annoDiNascita
 
-let somma = num1 + num2 + num3 + num4 + num5
+let centenario = 100 - anni
 
-let media = somma / 5
-
-console.log(`La somma tra i numeri equivale a ${somma} e la media equivale a ${media}`);
+console.log(`Hai ${anni} anni e ti mancano ${centenario} anni per compierne 100`);
